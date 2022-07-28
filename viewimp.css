@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-size: 120%;
+	background: #F8F8FF;
+	overflow-x: hidden;
+	background-image: url(update.JPG);
+	background-size: auto;
+} 
+
+h2
+{
+	color: blue;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.header
+{
+	  width:105%;
+      text-align:left;
+      margin-right:auto;
+	  margin-left:-20px;
+	  margin-top:0px;
+      background-color: white;
+      padding:20px;
+      border-color: blue;
+	  height: 70px;
+	  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	  text-align: left;
+}
+.imports
+{
+
+      width:105%;
+      text-align:left;
+      margin-right:auto;
+	  margin-left:-20px;
+	  margin-top:0px;
+      background-color: floralwhite;
+      padding:20px;
+      border-color: blue;
+	  height: 700px;
+	  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	  text-align: left;
+
+}
+.table
+{
+    width: 100%;
+	margin: 50px auto 0px;
+	color: black;
+	background: white;
+	text-align: left;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	padding: 20px;
+    font-size: 16px;
+}
+form{
+	width: 850000px;
+	margin: 0px auto;
+	align-content: center;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border -radius: 0px 0px 10px 10px;
+}
+.input -group 
+{
+	margin: 10px 0px 10px 0px;
+}
+.input-group label{
+	
+	text-align: left;
+	margin: 3px;
+}
+.input-group input
+{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn
+{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: green;
+	border: none;
+	border-radius: 5px;
+}
+
+.error
+{
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border - radius: 5px;
+	text-align: left;
+}

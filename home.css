@@ -1,0 +1,157 @@
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+
+	overflow-x: hidden;
+	background-image: url(custoback.JPG) ;
+	background-size: contain;
+	 margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+     
+	
+.sign-up-form
+{
+height: 1500px;
+padding-top: -100px;
+width: 1200px;
+box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+background: white;
+padding: 20px;
+margin-right:auto;
+margin-left:auto;
+margin-top:0px;
+text-align: left;
+}
+h1
+{
+	color: white;
+	text-align: right;
+}
+
+
+.container
+{
+	position: relative;
+	width: 100%;
+	align-content: center;
+}
+.Header
+{
+	background-color: green;
+    position: sticky;
+    top: 0px;
+    padding: 4px 0px;
+}
+.menu-bar
+{
+	display:ruby-base-container;
+	background: black;
+	text-align: center;
+
+	
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;s
+	color: white;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.active, .menu-bar ul li:hover
+{
+	background: green;
+	border-radius: 3px;
+}
+.menu-bar .fa
+{
+	margin-right:8px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.slider-frame{
+	overflow: hidden;
+	height:800px;
+	width: 1200px;
+	margin-left: 20px;
+	margin-top: 40px;
+	border-color: blue;
+	border-width: 20px;
+}
+
+/*-------------------- SLIDE ANIMATION ---------------------*/
+@keyframes slide_animation{
+	0% {left: 0px;}
+	10% {left: 0px;}
+	20% {left: 1200px;}
+	30% {left: 1200px;}
+	40% {left: 2400px;}
+	50% {left: 2400px;}
+	60% {left: 1200px;}
+	70% {left: 1200px;}
+	80% {left: 0px;}
+	90% {left: 0px;}
+	100% {left:0px;}
+
+}		
+.slide-images{
+	width: 3600px;
+	height: 800px;
+	margin: 0 0 0 -2400px;
+	position: relative;
+	-webkit-animation-name: slide_animation;
+	-webkit-animation-duration: 33s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+
+}	
+.img-container{
+	height: 800px;
+	width: 1200px;
+	position: relative;
+	float: left;
+}

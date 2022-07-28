@@ -1,0 +1,113 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-size: 120%;
+	background: #F8F8FF;
+	overflow-x: hidden;
+	background-image: url(custoback.JPG);
+	background-size: auto;
+} 
+.formart
+{
+	width: 60%;
+	height: 600%;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: yellow;
+	border -radius: 0px 0px 10px 10px;
+	margin-right:auto;
+    margin-left: -20px;
+    margin-top:-20px;
+}
+form{
+	width: 100%;
+	height: 600%;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border -radius: 0px 0px 10px 10px;
+	margin-right:auto;
+    margin-left:-10px;
+    margin-top:0px;
+    
+
+}
+
+.select
+{
+	margin: 10px 0px 10px 0px;
+}
+.select
+{
+	position: relative;
+	dispaly:  flex;
+	width:  20px;
+	height: 3px;
+	line-height: 3px;
+	background: blue;
+	overflow:  hidden;
+	
+}
+.input-group label{
+	
+	text-align: left;
+	margin: 3px;
+	font-size: 16px;
+	
+	
+}
+.textarea{
+	
+	text-align: left;
+	margin: 3px;
+	font-size: 16px;
+	
+	
+}
+.input-group input
+{
+	
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	height: 45px;
+	width: 100%;
+	padding-left: 15px;
+	outline:none;
+	
+}
+.input-group select
+{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;}
+
+
+.button
+{
+	padding: 10px;
+	font-size: 15px;
+	color: red;
+	background: green;
+	border: none;
+	border-radius: 5px;
+	align: center;
+
+}
+.error
+{
+	width: 20px;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border - radius: 5px;
+	text-align: left;
+}
